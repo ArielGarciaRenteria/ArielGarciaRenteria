@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Mi sitio</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="style/style2.css">
   </head>
   <body>
@@ -25,13 +25,21 @@
     </header>
     <section id="page">
       <article id="main">
-          <h2>Historia</h2>
-          <p>
-             Dúo de productores formado por los músicos franceses Guy-Manuel de Homem-Christo y Thomas Bangalter. Daft Punk alcanzó una gran popularidad en el estilo house a finales de la década de los 90 en Francia y continuó con su éxito los años siguientes, usando el estilo synthpop. El dúo también es acreditado por la producción de canciones que se consideran esenciales en el estilo french house. Desde 1996 hasta 2008 su representante fue Pedro Winter (Busy P), jefe de Ed Banger Records.
-          </p>
-
-          <br>
-          <img src="http://dbr.fm/wp-content/uploads/2015/04/daftpunk_main-620x349.jpg" title="Daft Punk" />
+          <fieldset class="contacto">
+          <legend>Contacto</legend>
+              Nombre:<br>
+          <input type="text" name="person[name]"/>
+          <br/>
+              Correo:<br>
+              <input type="email" name="correo"/>
+          <br/>
+              Mensaje: <br/>
+        <textarea name="message" id="mensaje"></textarea>
+          <br/>
+              <br/>
+              <a href="mailto:a291641@gmail.com?Subject=Hello%20again" target="_top" class="button-style">Enviar Correo</a>
+              
+          </fieldset>
       </article>
 <!--MAIN-->
     <aside id="barra">
